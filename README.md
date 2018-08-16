@@ -17,9 +17,9 @@ lengths distributed across the genome; the point of this is to enable extraction
 
 SVcall requires a list of lengths for created SV's (one length per line) and a fasta index file (can be created from a fasta with samtools faidx).
 The line:
-'''
+```
 python SVcall.py [length file] [fasta index file] [output file]
-'''
+```
 will output SV's, sorted within each chromosome by starting index, in tab-separated-value (BED) format to [output_file]
 # Queued Improvements
 1. Blacklisting (not adding SV's in certain regions of the fasta, specified by an additional input file) 
