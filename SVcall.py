@@ -1,5 +1,4 @@
 import sys
-from Bio import SeqIO
 from random import choice, shuffle, sample
 
 class Sequence():
