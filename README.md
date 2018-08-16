@@ -9,7 +9,7 @@ More specifically, unlike SVsim, SVcall:
 2. Generates independent SV's without outputting the whole genome
 3. Nondeterministically generates SV start positions, given the same fasta index file
 
-Unlike SVsim, however, SVcall does not emulate the creation of the SV's - it instead outputs coordinates for SV's of given 
+Unlike SVsim, however, SVcall does not emulate the creation of the SV's - it instead outputs non-overlapping coordinates for SV's of given 
 lengths distributed across the genome; the point of this is to enable extraction of features of the genome at these coordinates
 (rather than features of the SV itself)
 
