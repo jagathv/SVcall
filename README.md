@@ -16,3 +16,4 @@ lengths distributed across the genome; the point of this is to enable extraction
 # Queued Improvements
 1. Blacklisting (not adding SV's in certain regions of the fasta, specified by an additional input file) 
 2. SV simulation (creating the actual SV's in the genome based on the type, as SVsim does, and outputting a mutated fasta)
+3. Parallelizing (Currently somewhat slow, especially when creating SV's in larger chromosomes)
