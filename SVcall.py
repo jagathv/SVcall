@@ -21,7 +21,7 @@ class Sequence():
 			for chrom in self.chroms:
 				for coord in self.chroms[chrom].get_coords():
 					out.write(coord)
-		
+
 class Chromosome():
 
 	def __init__(self, name, length):
