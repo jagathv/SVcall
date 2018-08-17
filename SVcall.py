@@ -45,7 +45,7 @@ class Chromosome():
 			raise ValueError("Error: SV's not yet added in chromosome " + self.name)
 		self.created_svs = True
 		truncated_size = self.length - self.sv_sum
-		possible_locations = range(self.length)
+		possible_locations = range(truncated_size)
 		sv_loc = sample(possible_locations, len(self.sv))
 		sv_loc.sort()
 		shuffle(self.sv)
